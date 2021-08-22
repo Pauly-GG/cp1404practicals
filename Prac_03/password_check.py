@@ -11,11 +11,13 @@ def password_checker ():
 # password_checker()
 
 def main():
+    """Get password length"""
     password = get_password(MIN_LENGTH)
     print_asterisks(password)
 
 
 def get_password(minimum_length):
+    """Inputting of password"""
     password = input("Enter a password of at least {} characters: ".format(minimum_length))
     while len(password) < minimum_length:
         print("Password is too short")
@@ -24,6 +26,7 @@ def get_password(minimum_length):
 
 
 def print_asterisks(sequence):
+    """Display password length as asterisks"""
     print('*' * len(sequence))
 
 
