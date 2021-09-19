@@ -2,7 +2,7 @@
 
 
 class Car:
-    """Represent a Car object."""
+    """Represents a car as an object."""
 
     def __init__(self, fuel=0, name=""):
         """Initialise a Car instance.

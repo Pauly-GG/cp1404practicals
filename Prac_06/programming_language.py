@@ -13,5 +13,5 @@ def __str__(self):
 
 
  def is_dynamic(self):
-        """Determine if language is dynamically typed."""
+        """Determines if language is dynamically typed."""
         return self.typing == "Dynamic"

@@ -2,6 +2,7 @@ from Prac_06.guitar import Guitar
 
 
 def main():
+    """List of guitars"""
     guitars = []
 
     # print("My guitars!")

@@ -4,8 +4,8 @@ CURRENT_YEAR = 2021
 
 def run_tests():
     name = "Gibson L-5 CES"
-    year = 1922
     cost = 16035.40
+    year = 1922
 
     guitar = Guitar(name, year, cost)
     other = Guitar("Another Guitar", 2000, 1800.5)
